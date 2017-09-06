@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        
+                <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="@string/deposit_no" />
+
+        <EditText
+            android:id="@+id/editDepositNo"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" >
+            <requestFocus />
+        </EditText>
+        </LinearLayout>
+
+                    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        
+        <TextView
+            android:id="@+id/textAccountHolder"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="@string/account_holder" />
+
+
+
+        <EditText
+            android:id="@+id/editAccountHolder"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:inputType="textCapCharacters|textCapWords" >
+
+        </EditText>
+        </LinearLayout>
+
+                             <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textBank"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="@string/blank_name" />
+
+        <EditText
+            android:id="@+id/editBank"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:inputType="textCapCharacters" >
+
+        </EditText>
+        </LinearLayout>
+        
+          <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        
+           <TextView
+            android:id="@+id/textDepositAmount"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="@string/deposit_amount" />
+
+        <EditText
+            android:id="@+id/editDepositAmount"
+            android:layout_width="150dp"
+            android:inputType="number"
+            android:layout_height="wrap_content" >
+        </EditText>
+        
+        </LinearLayout>
+        
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+            android:id="@+id/textDepositdate"
+            android:layout_height="wrap_content"
+            android:layout_width="120dp"
+            android:text="@string/deposit_date" />
+            
+            <EditText
+                android:id="@+id/editDepositDate"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content">
+            </EditText>
+
+            <ImageButton
+                android:id="@+id/buttonDateDialog"
+                android:layout_gravity="center"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:onClick="showDepositDateDialog"
+                android:src="@drawable/data" android:contentDescription="Date  Picker">
+            </ImageButton>
+        </LinearLayout>
+        
+     <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+       <TextView
+            android:id="@+id/textMaturityAmount"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="@string/maturity_amount" />
+
+        <EditText
+            android:id="@+id/editMaturityAmount"
+            android:layout_width="150dp"
+            android:inputType="number"
+            android:layout_height="wrap_content" >
+        </EditText>
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            
+           <TextView
+            android:id="@+id/textMaturitydate"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="@string/maturity_date" />
+                        
+            <EditText
+                android:id="@+id/editMaturityDate"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content">
+            </EditText>
+
+            <ImageButton
+                android:id="@+id/buttonMaturityDateDialog"
+                android:layout_gravity="center"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:onClick="showMaturityDateDialog"
+                android:src="@drawable/data">
+            </ImageButton>
+        </LinearLayout>
+        
+          
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textIntRate"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="@string/interest_date" />
+
+
+        <EditText
+            android:id="@+id/editIntRate"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:inputType="number|numberDecimal" >
+
+        </EditText>
+
+        
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        
+        <TextView
+            android:id="@+id/textAuto"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="@string/auto_renewal" />
+        <CheckBox
+            android:id="@+id/checkAutoRenewal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        
+        </LinearLayout>
+        
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="add"
+            android:text="@string/add"></Button>
+    </LinearLayout>
+
+</ScrollView><!-- From: file:/C:/Users/asdf/StudioProjects/FinancialNotifier/app/src/main/res/layout/add_fd.xml -->

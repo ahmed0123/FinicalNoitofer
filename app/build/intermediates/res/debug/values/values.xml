@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/asdf/StudioProjects/FinancialNotifier/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="account_holder">Account Holder</string>
+    <string name="add">Add</string>
+    <string name="add_de">Add Deposit</string>
+    <string name="app_name">Financial Notifier</string>
+    <string name="auto_renewal">Auto Renewal </string>
+    <string name="backup">In order to backup your data click on Backup button below. Be aware backup of current database will overwrite backup of previous database.</string>
+    <string name="backup_DB">BackUp Database</string>
+    <string name="bank">Bank</string>
+    <string name="blank_name">Bank Name </string>
+    <string name="company">Company </string>
+    <string name="deposit_amount">Deposit Amount </string>
+    <string name="deposit_date">Deposit Date </string>
+    <string name="deposit_no">Deposit No.</string>
+    <string name="due_date">Due Date </string>
+    <string name="end_date">End Date  </string>
+    <string name="hello">Hello World, FinancialNotifierMenuActivity!</string>
+    <string name="home">Home</string>
+    <string name="insurance_amount">Insurance Amount  </string>
+    <string name="interest_date">Interest Rate  </string>
+    <string name="maturity_amount">Maturity Amount  </string>
+    <string name="maturity_date">Maturity Date  </string>
+    <string name="period">Period In Years</string>
+    <string name="policy_holder">Policy Holder</string>
+    <string name="policy_name">Policy Name </string>
+    <string name="policy_no">Policy No.</string>
+    <string name="premium_amount">Premium Amount</string>
+    <string name="restore">In order to restore your data that was already backed up,  click on Restore buttow below. Be aware it deletes existing database and restores old one.</string>
+    <string name="restore_DB">Restore Database</string>
+    <string name="start_date">Start Date  </string>
+    <string name="sum_assured">Sum Assured</string>
+    <string name="vehicle_details">Vehicle Details</string>
+    <string name="vehicle_no">Vehicle No.</string>
+    <string name="vehicle_value">Vehicle Value </string>
+    <!-- From: file:/C:/Users/asdf/StudioProjects/FinancialNotifier/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="big">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff0000</item>
+    </style>
+    <style name="black">
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="common"/>
+    <style name="common.bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="common.bold.blue">
+        <item name="android:textColor">#0000ff</item>
+    </style>
+    <style name="common.bold.red">
+        <item name="android:textColor">#ff0000</item>
+    </style>
+    <style name="common.heading">
+        <item name="android:background">#ffffff</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="error">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff0000</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="heading">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="highlight">
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:gravity">right</item>
+    </style>
+</resources>
