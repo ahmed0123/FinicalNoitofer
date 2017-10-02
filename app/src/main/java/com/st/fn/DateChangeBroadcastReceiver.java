@@ -12,6 +12,12 @@ import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
 import android.util.Log;
 
+import com.st.fn.activites.UpdateDepositActivity;
+import com.st.fn.activites.UpdateLifeInsuranceActivity;
+import com.st.fn.activites.UpdateVehicleActivity;
+import com.st.fn.database.DBHelper;
+import com.st.fn.database.Database;
+
 public class DateChangeBroadcastReceiver extends BroadcastReceiver {
 
 	@Override

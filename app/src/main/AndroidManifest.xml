@@ -13,7 +13,7 @@
         android:icon="@drawable/icon"
         android:label="@string/app_name" >
         <activity
-            android:name="FinancialNotifierMenuActivity"
+            android:name=".activites.FinancialNotifierMenuActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,53 +22,53 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="VehiclesActivity"
+            android:name=".activites.VehiclesActivity"
             android:label="Vehicle Insurance Menu" >
         </activity>
         <activity
-            android:name="UpdateVehicleActivity"
+            android:name=".activites.UpdateVehicleActivity"
             android:label="Update Vehicle Insurance" >
         </activity>
         <activity
-            android:name="AddVIActivity"
+            android:name=".activites.AddVIActivity"
             android:label="Add Vechicle Insurance" >
         </activity>
         <activity
-            android:name="LifeInsurancesActivity"
+            android:name=".activites.LifeInsurancesActivity"
             android:label="Life Insurances Menu" >
         </activity>
         <activity
-            android:name="AddLIActivity"
+            android:name=".activites.AddLIActivity"
             android:label="Add Life Insurance" >
         </activity>
         <activity
-            android:name="UpdateLifeInsuranceActivity"
+            android:name=".activites.UpdateLifeInsuranceActivity"
             android:label="Update Life Insurance" >
         </activity>
         <activity
-            android:name="UpcomingEventsActivity"
+            android:name=".activites.UpcomingEventsActivity"
             android:label="Upcoming Events" >
         </activity>
         <activity
-            android:name="PrefsActivity"
+            android:name=".activites.PrefsActivity"
             android:label="Preferences" >
         </activity>
         <activity
-            android:name="DepositsActivity"
+            android:name=".activites.DepositsActivity"
             android:label="Fixed Deposits" >
         </activity>
         <activity
-            android:name="AddFDActivity"
+            android:name=".activites.AddFDActivity"
             android:label="Add Fixed Deposits" >
         </activity>
         
         <activity
-            android:name="UpdateDepositActivity"
+            android:name=".activites.UpdateDepositActivity"
             android:label="Update Deposit" >
         </activity>
         
         <activity
-            android:name="BackupRestoreActivity"
+            android:name=".activites.BackupRestoreActivity"
             android:label="Backup and Restore" >
         </activity>
 

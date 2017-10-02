@@ -1,140 +1,142 @@
 -- Merging decision tree log ---
 manifest
-ADDED from AndroidManifest.xml:2:1
+ADDED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml:2:1-83:12
 	package
-		ADDED from AndroidManifest.xml:3:5
-		INJECTED from AndroidManifest.xml:0:0
-		INJECTED from AndroidManifest.xml:0:0
+		ADDED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml:3:5-24
+		INJECTED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml
+		INJECTED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from AndroidManifest.xml:5:5
+		ADDED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml
+		INJECTED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml
 	android:versionCode
-		ADDED from AndroidManifest.xml:4:5
-		INJECTED from AndroidManifest.xml:0:0
-		INJECTED from AndroidManifest.xml:0:0
+		ADDED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml
+		INJECTED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from AndroidManifest.xml:2:11
+		ADDED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml:2:11-69
 uses-sdk
-ADDED from AndroidManifest.xml:7:5
+ADDED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml:7:5-43
 	android:targetSdkVersion
-		INJECTED from AndroidManifest.xml:0:0
-		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml
+		INJECTED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from AndroidManifest.xml:7:15
-		INJECTED from AndroidManifest.xml:0:0
-		INJECTED from AndroidManifest.xml:0:0
+		ADDED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml:7:15-40
+		INJECTED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml
+		INJECTED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from AndroidManifest.xml:9:5
+ADDED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml:9:5-81
 	android:name
-		ADDED from AndroidManifest.xml:9:22
+		ADDED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml:9:22-78
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from AndroidManifest.xml:10:5
+ADDED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml:10:5-81
 	android:name
-		ADDED from AndroidManifest.xml:10:22
+		ADDED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml:10:22-78
 application
-ADDED from AndroidManifest.xml:12:5
+ADDED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml:12:5-81:19
 	android:label
-		ADDED from AndroidManifest.xml:14:9
+		ADDED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml:14:9-41
 	android:icon
-		ADDED from AndroidManifest.xml:13:9
-activity#com.st.fn.FinancialNotifierMenuActivity
-ADDED from AndroidManifest.xml:15:9
+		ADDED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml:13:9-38
+activity#com.st.fn.activites.FinancialNotifierMenuActivity
+ADDED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml:15:9-23:20
 	android:label
-		ADDED from AndroidManifest.xml:17:13
+		ADDED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml:17:13-45
 	android:name
-		ADDED from AndroidManifest.xml:16:13
+		ADDED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml:16:13-68
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from AndroidManifest.xml:18:13
+ADDED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml:18:13-22:29
 action#android.intent.action.MAIN
-ADDED from AndroidManifest.xml:19:17
+ADDED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml:19:17-69
 	android:name
-		ADDED from AndroidManifest.xml:19:25
+		ADDED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml:19:25-66
 category#android.intent.category.LAUNCHER
-ADDED from AndroidManifest.xml:21:17
+ADDED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml:21:17-77
 	android:name
-		ADDED from AndroidManifest.xml:21:27
-activity#com.st.fn.VehiclesActivity
-ADDED from AndroidManifest.xml:24:9
+		ADDED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml:21:27-74
+activity#com.st.fn.activites.VehiclesActivity
+ADDED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml:24:9-27:20
 	android:label
-		ADDED from AndroidManifest.xml:26:13
+		ADDED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml:26:13-51
 	android:name
-		ADDED from AndroidManifest.xml:25:13
-activity#com.st.fn.UpdateVehicleActivity
-ADDED from AndroidManifest.xml:28:9
+		ADDED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml:25:13-55
+activity#com.st.fn.activites.UpdateVehicleActivity
+ADDED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml:28:9-31:20
 	android:label
-		ADDED from AndroidManifest.xml:30:13
+		ADDED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml:30:13-53
 	android:name
-		ADDED from AndroidManifest.xml:29:13
-activity#com.st.fn.AddVIActivity
-ADDED from AndroidManifest.xml:32:9
+		ADDED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml:29:13-60
+activity#com.st.fn.activites.AddVIActivity
+ADDED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml:32:9-35:20
 	android:label
-		ADDED from AndroidManifest.xml:34:13
+		ADDED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml:34:13-51
 	android:name
-		ADDED from AndroidManifest.xml:33:13
-activity#com.st.fn.LifeInsurancesActivity
-ADDED from AndroidManifest.xml:36:9
+		ADDED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml:33:13-52
+activity#com.st.fn.activites.LifeInsurancesActivity
+ADDED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml:36:9-39:20
 	android:label
-		ADDED from AndroidManifest.xml:38:13
+		ADDED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml:38:13-49
 	android:name
-		ADDED from AndroidManifest.xml:37:13
-activity#com.st.fn.AddLIActivity
-ADDED from AndroidManifest.xml:40:9
+		ADDED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml:37:13-61
+activity#com.st.fn.activites.AddLIActivity
+ADDED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml:40:9-43:20
 	android:label
-		ADDED from AndroidManifest.xml:42:13
+		ADDED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml:42:13-47
 	android:name
-		ADDED from AndroidManifest.xml:41:13
-activity#com.st.fn.UpdateLifeInsuranceActivity
-ADDED from AndroidManifest.xml:44:9
+		ADDED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml:41:13-52
+activity#com.st.fn.activites.UpdateLifeInsuranceActivity
+ADDED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml:44:9-47:20
 	android:label
-		ADDED from AndroidManifest.xml:46:13
+		ADDED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml:46:13-50
 	android:name
-		ADDED from AndroidManifest.xml:45:13
-activity#com.st.fn.UpcomingEventsActivity
-ADDED from AndroidManifest.xml:48:9
+		ADDED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml:45:13-66
+activity#com.st.fn.activites.UpcomingEventsActivity
+ADDED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml:48:9-51:20
 	android:label
-		ADDED from AndroidManifest.xml:50:13
+		ADDED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml:50:13-44
 	android:name
-		ADDED from AndroidManifest.xml:49:13
-activity#com.st.fn.PrefsActivity
-ADDED from AndroidManifest.xml:52:9
+		ADDED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml:49:13-61
+activity#com.st.fn.activites.PrefsActivity
+ADDED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml:52:9-55:20
 	android:label
-		ADDED from AndroidManifest.xml:54:13
+		ADDED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml:54:13-40
 	android:name
-		ADDED from AndroidManifest.xml:53:13
-activity#com.st.fn.DepositsActivity
-ADDED from AndroidManifest.xml:56:9
+		ADDED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml:53:13-52
+activity#com.st.fn.activites.DepositsActivity
+ADDED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml:56:9-59:20
 	android:label
-		ADDED from AndroidManifest.xml:58:13
+		ADDED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml:58:13-43
 	android:name
-		ADDED from AndroidManifest.xml:57:13
-activity#com.st.fn.AddFDActivity
-ADDED from AndroidManifest.xml:60:9
+		ADDED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml:57:13-55
+activity#com.st.fn.activites.AddFDActivity
+ADDED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml:60:9-63:20
 	android:label
-		ADDED from AndroidManifest.xml:62:13
+		ADDED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml:62:13-47
 	android:name
-		ADDED from AndroidManifest.xml:61:13
-activity#com.st.fn.UpdateDepositActivity
-ADDED from AndroidManifest.xml:65:9
+		ADDED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml:61:13-52
+activity#com.st.fn.activites.UpdateDepositActivity
+ADDED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml:65:9-68:20
 	android:label
-		ADDED from AndroidManifest.xml:67:13
+		ADDED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml:67:13-43
 	android:name
-		ADDED from AndroidManifest.xml:66:13
-activity#com.st.fn.BackupRestoreActivity
-ADDED from AndroidManifest.xml:70:9
+		ADDED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml:66:13-60
+activity#com.st.fn.activites.BackupRestoreActivity
+ADDED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml:70:9-73:20
 	android:label
-		ADDED from AndroidManifest.xml:72:13
+		ADDED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml:72:13-47
 	android:name
-		ADDED from AndroidManifest.xml:71:13
+		ADDED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml:71:13-60
 receiver#com.st.fn.DateChangeBroadcastReceiver
-ADDED from AndroidManifest.xml:75:9
+ADDED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml:75:9-80:20
 	android:name
-		ADDED from AndroidManifest.xml:75:19
+		ADDED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml:75:19-62
 intent-filter#android.intent.action.BOOT_COMPLETED+com.st.fn.NOTIFY
-ADDED from AndroidManifest.xml:76:13
+ADDED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml:76:13-79:29
 action#android.intent.action.BOOT_COMPLETED
-ADDED from AndroidManifest.xml:77:17
+ADDED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml:77:17-79
 	android:name
-		ADDED from AndroidManifest.xml:77:25
+		ADDED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml:77:25-76
 action#com.st.fn.NOTIFY
-ADDED from AndroidManifest.xml:78:17
+ADDED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml:78:17-59
 	android:name
-		ADDED from AndroidManifest.xml:78:25
+		ADDED from D:\FinancialNotifier\app\src\main\AndroidManifest.xml:78:25-56
